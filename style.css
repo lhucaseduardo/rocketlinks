@@ -24,14 +24,6 @@ body {
     width: 100vw;
 }
 
-header {
-    height: 46vh;
-}
-
-main {
-    height: 51vh;
-}
-
 .perfil {
     display: flex;
     flex-direction: column;
