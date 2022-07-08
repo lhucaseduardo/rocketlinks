@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+body {
+    overflow: hidden;
+    height: 100vh;   
+    width: 100vw;
+}
+
+header {
+    height: 46vh;
+}
+
+main {
+    height: 51vh;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagePerfil {
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+}
+
+.image {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    object-fit:contain;
+    border-radius: 50%;
+    border: 4px solid #2a2a8b;
+    padding: 5px;
+}
+
+.fullName {
+    font-family: 'roboto';
+    font-weight: 100;
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+.socialIdentification {
+    color: #3a3838;
+    font-family: 'roboto';
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.socialLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    gap: 16px;
+}
+
+.socialButton {
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'roboto';
+    font-weight: 500;
+    font-size: 15px;
+    height: 55px;
+    width: 300px;
+    border: 1px solid #2a2a8b;
+}
+
+.socialButton:hover {
+    color: white;
+    background-color: #3d83df;
+    border: none;
+}
+
+.wallpaperBackground {
+    position: absolute;
+    height: 150px;
+    width: 100vw;
+    z-index: -1;
+}
+
+.imgBackG {
+   object-fit: cover;
+   height: 100%;
+   width: 100%;
+}
+
+.socialIcon {
+    height: 25px;
+    width: 25px;
+}
+
+.iconText {
+    position: relative;
+    width: 80%;
+}
