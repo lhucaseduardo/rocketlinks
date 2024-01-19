@@ -108,5 +108,7 @@ body {
 
 .iconText {
     position: relative;
-    width: 80%;
+    width: 100%;
+    font-family: 'roboto';
+    font-size: 13px;
 }
